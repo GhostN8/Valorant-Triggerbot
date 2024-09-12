@@ -1,4 +1,4 @@
-from os import system, _exit, path, urandom
+from os import system, _exit, path, random
 
 system("mode 80,18 & title Unique & powershell $H=get-host;$W=$H.ui.rawui;$B=$W.buffersize;$B.width=80;$B.height=9999;$W.buffersize=$B;")
 
